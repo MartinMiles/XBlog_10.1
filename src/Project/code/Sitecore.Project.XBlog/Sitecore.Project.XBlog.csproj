@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D26CE6B2-7E46-4B06-BFEC-0489AA842629}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.Project.XBlog</RootNamespace>
+    <AssemblyName>Sitecore.Project.XBlog</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Config\Include\XBlog.Search.Lucene.config.bak" />
+    <None Include="App_Config\Include\XBlog.Search.Solr.config" />
+    <None Include="App_Config\Include\XBlog.Settings.config" />
+    <None Include="App_Config\Include\XBlog.Sitecore.Buckets.config" />
+    <None Include="packages.config" />
+    <None Include="sitecore\shell\client\YourApps\XCore Tools\Renderings\Forms\UploadFiles.cshtml" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config" />
+    <None Include="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\facebook.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\github.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\google_plus.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\instagram.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\linkedin.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\mail.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\pinterest.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\pocket.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\reddit.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\tumblr.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\twitter.svg" />
+    <Content Include="Components\XBlog Assets\Icons\RRSSB\youtube.svg" />
+    <Content Include="Components\XBlog Assets\Images\XBlog.jpg" />
+    <Content Include="Components\XBlog Assets\JS\RRSSB\rrssb.js" />
+    <Content Include="Components\XBlog Assets\JS\RRSSB\rrssb.min.js" />
+    <Content Include="Components\XBlog Assets\JS\RRSSB\vendor\jquery.1.10.2.min.js" />
+    <Content Include="Components\XBlog Assets\JS\RRSSB\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
+    <Content Include="Components\XBlog Assets\Style\RRSSB\demo.css" />
+    <Content Include="Components\XBlog Assets\Style\RRSSB\normalize.min.css" />
+    <Content Include="Components\XBlog Assets\Style\RRSSB\rrssb.css" />
+    <Content Include="Components\XBlog Assets\Style\XBlog.css" />
+    <Content Include="Sitecore Modules\XBlog\SPEAK\XBlogCreator.js" />
+    <Content Include="sitecore\shell\client\Speak\Assets\lib\ui\deps\jquery-File-Upload\jquery.fileupload.js" />
+    <Content Include="sitecore\shell\client\Speak\Assets\lib\ui\deps\jquery-File-Upload\jquery.iframe-transport.js" />
+    <Content Include="sitecore\shell\client\YourApps\Blog Creator\Blog Creator.js" />
+    <Content Include="sitecore\shell\client\YourApps\Blog Creator\XBlogCreator.css" />
+    <Content Include="sitecore\shell\client\YourApps\XCore Tools\Renderings\Forms\UploadFiles.js" />
+    <Content Include="sitecore\shell\client\YourApps\XCore Tools\Renderings\Forms\UploadFiles.test.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

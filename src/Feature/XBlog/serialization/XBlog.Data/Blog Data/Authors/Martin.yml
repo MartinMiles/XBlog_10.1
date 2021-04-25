@@ -1,0 +1,42 @@
+﻿---
+ID: "fd6816a8-f2c5-4182-9c0c-3b4ce4da134f"
+Parent: "697934e3-7fa9-4b3a-97cc-4850b107b5ec"
+Template: "f3fdfc91-c3d6-480d-83eb-74333ec2de1c"
+Path: /sitecore/content/Blog Data/Authors/Martin
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T035855Z
+    - ID: "3138c2a2-0370-430d-986a-255454afac61"
+      Hint: Location
+      Value: UK
+    - ID: "5c6c7a6f-2dc1-47a2-a28b-c224df0cc0f2"
+      Hint: Creator
+      Value: Creator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d64b3153-d884-4306-90b1-84aaf762946c"
+    - ID: "ae1b3ca1-21b0-4d6a-9327-17d5571335df"
+      Hint: Full Name
+      Value: Martin
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210331T035946Z
+    - ID: "f84e5dd5-3919-46ea-80f2-cfa105888c68"
+      Hint: Bio
+      Value: Bio
+    - ID: "fe4cf004-52b4-46e4-93a3-99dba835337a"
+      Hint: Email Address
+      Value: miles@martin.by

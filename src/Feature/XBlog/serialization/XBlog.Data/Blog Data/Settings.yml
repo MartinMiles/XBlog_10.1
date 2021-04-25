@@ -1,0 +1,44 @@
+﻿---
+ID: "780300e8-8694-4383-9e3a-bf9caa431789"
+Parent: "ed478f93-60e5-4a40-aa88-a8d144aae240"
+Template: "0951b1c7-0699-415f-9ff5-ecdfeaec79d6"
+Path: /sitecore/content/Blog Data/Settings
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T035112Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8c33ab62-e715-4369-a220-9cc0a241b41c"
+      Hint: Category Folder
+      Value: "{635C7C8C-59C0-4C62-9F17-58DD81E4822B}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da0c4b25-3c6d-438b-b89f-4a78b5bb1b4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d0332649-962a-41d0-806b-89bd1cbfcf71"
+      Hint: Author Folder
+      Value: "{697934E3-7FA9-4B3A-97CC-4850B107B5EC}"
+    - ID: "d8480e1e-8502-4b6a-bf41-dc6ce16dc177"
+      Hint: Tag Folder
+      Value: "{2DD5C0B1-E51D-4121-8F62-A799B3D6C862}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210331T040207Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "1c50052c-fd33-4340-9c44-b01c746d4600"
+Parent: "2dd5c0b1-e51d-4121-8f62-a799b3d6c862"
+Template: "8b11616f-f9f1-4dc0-bf8a-80d6026e8ad3"
+Path: /sitecore/content/Blog Data/Tags/Tag
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T040116Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6957ae02-3c36-46b9-8e6b-f4a279a63b13"
+      Hint: Tag Name
+      Value: Tag
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "978f0237-5cc8-4d5e-8889-1c219cac7fa3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210331T040116Z

@@ -1,0 +1,47 @@
+﻿---
+ID: "ceb794f2-c4a6-449c-9665-49b911e57a18"
+Parent: "0255b9a9-6cce-4840-a445-e3f1a29506a0"
+Template: "0255b9a9-6cce-4840-a445-e3f1a29506a0"
+Path: /sitecore/templates/Feature/XBlog/Base/Blog Author/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{E5697002-1F90-48EC-B378-E6461475F611}"
+- ID: "ac51462c-8a8d-493b-9492-34d1f26f20f1"
+  Hint: __Default Bucket Query
+  Value: "sort:publish_date[desc];template:{e5697002-1f90-48ec-b378-e6461475f611}"
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140820T152830
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "972512fa-b8a9-440d-8fda-9650e0f3b6f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zmalmquist
+    - ID: "d2ba506d-afde-4688-92a9-2d80806b0410"
+      Hint: Author Default Title
+      Value: Authors
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20140925T091024:635472330245371145"

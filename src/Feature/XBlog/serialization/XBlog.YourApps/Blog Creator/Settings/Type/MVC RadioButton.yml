@@ -1,0 +1,40 @@
+﻿---
+ID: "fa717136-108b-4eb6-9637-065da274359c"
+Parent: "783458e2-7a6a-4aa8-8dba-95d2dcd909f7"
+Template: "56e3e9ce-f699-45e5-9938-6fed97da6a65"
+Path: /sitecore/client/Your Apps/Blog Creator/Settings/Type/MVC RadioButton
+SharedFields:
+- ID: "832a17fc-fccc-40c5-a68a-82e08c297ff9"
+  Hint: Value
+  Value: 
+- ID: "b9c4c778-412f-4421-933d-1ad57eeb745c"
+  Hint: GroupName
+  Value: BlogType
+- ID: "e861093b-d666-4d0d-ac0c-508713d325cf"
+  Hint: IsChecked
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141027T164931
+    - ID: "2a2a3e10-cc00-4044-b1e6-6b761387d8f3"
+      Hint: Text
+      Value: MVC 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nashesh
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "040b7b4d-360e-4f51-aab7-ae9e0c871f4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\klossome
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20141106T092241:635508625613063518"

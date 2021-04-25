@@ -1,0 +1,48 @@
+{
+  "namespace": "XBlog",
+  "items": {
+    "includes": [
+      {
+        "name": "XBlog.Launchpad",
+        "database": "core",
+        "path": "/sitecore/client/Applications/Launch Pad/Page Settings/Shortcuts/XBlog Creator"
+      },
+      {
+        "name": "XBlog.YourApps",
+        "database": "core",
+        "path": "/sitecore/client/Your Apps/Blog Creator"
+      },
+      {
+        "name": "XBlog.Multilist",
+        "database": "core",
+        "path": "/sitecore/system/Field types/List Types/XBlogMultilist"
+      },
+      {
+        "name": "XBlog.Media.Loader",
+        "database": "core",
+        "path": "/sitecore/media library/loader"
+      },
+      {
+        "name": "XBlog.Media.XBlog",
+        "database": "core",
+        "path": "/sitecore/media library/XBlog"
+      },
+      {
+        "name": "XBlog.Templates",
+        "path": "/sitecore/templates/Feature/XBlog"
+      },
+      {
+        "name": "XBlog.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/XBlog"
+      },
+      {
+        "name": "XBlog.Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/XBlog"
+      },
+      {
+        "name": "XBlog.Data",
+        "path": "/sitecore/content/Blog Data"
+      }
+    ]
+  }
+}
